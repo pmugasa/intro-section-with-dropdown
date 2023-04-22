@@ -33,7 +33,7 @@ function App() {
 
       <main className="bg-almost-white">
         <div className="">
-          <img src="/assets/image-hero-mobile.png" />
+          <img src="./assets/image-hero-mobile.png" />
 
           <div className="mt-8 flex flex-col items-center justify-center">
             <h2 className="text-almost-black text-4xl font-bold">
