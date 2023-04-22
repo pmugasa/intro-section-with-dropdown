@@ -25,7 +25,7 @@ function App() {
 
           <div className="ml-auto">
             <a href="#" onClick={toggleModal}>
-              <img src="\assets\icon-menu.svg" />
+              <img src="./assets/icon-menu.svg" />
             </a>
           </div>
         </div>
@@ -49,10 +49,10 @@ function App() {
               </button>
             </div>
             <div className="flex items-center  justify-between space-x-8 mt-4">
-              <img src="/assets/client-databiz.svg" className="w-16" />
-              <img src="/assets/client-audiophile.svg" className="w-16" />
-              <img src="/assets/client-meet.svg" className="w-16" />
-              <img src="/assets/client-maker.svg" className="w-16" />
+              <img src="./assets/client-databiz.svg" className="w-16" />
+              <img src="./assets/client-audiophile.svg" className="w-16" />
+              <img src="./assets/client-meet.svg" className="w-16" />
+              <img src="./assets/client-maker.svg" className="w-16" />
             </div>
           </div>
         </div>
@@ -74,8 +74,8 @@ function App() {
             <img
               src={
                 isFeatures
-                  ? "/assets/icon-arrow-down.svg"
-                  : "/assets/icon-arrow-up.svg"
+                  ? "./assets/icon-arrow-down.svg"
+                  : "./assets/icon-arrow-up.svg"
               }
               className="h-2"
             />
@@ -83,20 +83,20 @@ function App() {
 
           <div className={isFeatures ? "hidden" : " block text-base p-4"}>
             <a href="#" className="flex items-center space-x-4 mt-6">
-              <img src="/assets\icon-todo.svg" className="h-5 w-5" />
+              <img src="./assets/icon-todo.svg" className="h-5 w-5" />
               <p>Todo List</p>
             </a>
 
             <a href="#" className="flex items-center space-x-4 mt-6">
-              <img src="/assets/icon-calendar.svg" className="h-5 w-5" />
+              <img src="./assets/icon-calendar.svg" className="h-5 w-5" />
               <p>Calendar</p>
             </a>
             <a href="#" className="flex items-center space-x-4 mt-6">
-              <img src="/assets/icon-reminders.svg" className="h-5 w-5" />
+              <img src="./assets/icon-reminders.svg" className="h-5 w-5" />
               <p>Reminders</p>
             </a>
             <a href="#" className="flex items-center space-x-4 mt-6">
-              <img src="/assets/icon-planning.svg" className="h-5 w-5" />
+              <img src="./assets/icon-planning.svg" className="h-5 w-5" />
               <p>Planning</p>
             </a>
           </div>
@@ -109,8 +109,8 @@ function App() {
             <img
               src={
                 isCompany
-                  ? "/assets/icon-arrow-down.svg"
-                  : "/assets/icon-arrow-up.svg"
+                  ? "./assets/icon-arrow-down.svg"
+                  : "./assets/icon-arrow-up.svg"
               }
               className="h-2"
             />
