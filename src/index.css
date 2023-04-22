@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.almost-white {
+  color: var(--color-almost-white);
+}
+
+.almost-black {
+  color: var(--color-almost-black);
+}
+
+.medium-gray {
+  color: var(--color-medium-gray);
+}
+body {
+  font-family: "Epilogue", sans-serif;
+}
